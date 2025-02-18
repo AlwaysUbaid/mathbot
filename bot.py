@@ -251,7 +251,7 @@ def main():
 
     # Get port and webhook URL from environment variables
     port = int(os.getenv('PORT', 8080))
-    webhook_url = os.getenv('WEBHOOK_URL', 'https://your-app-name.onrender.com')
+    webhook_url = os.getenv('WEBHOOK_URL', 'https://mathbot-3dk0.onrender.com')
 
     # Start the bot in webhook mode
     application.run_webhook(
